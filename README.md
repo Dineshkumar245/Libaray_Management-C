@@ -26,3 +26,7 @@ The Library Management System is a simple yet effective console-based applicatio
 Check if a book is available for borrowing.Ensure users do not exceed the borrowing limit (one book at a time).
 
 2)Return Books:Update the system when users return borrowed books.
+
+# How to Run the Program
+
+You can just run the program by coping it and paste it in GDB online c compiler. Safely exit the program.
