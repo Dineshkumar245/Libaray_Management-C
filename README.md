@@ -21,9 +21,7 @@ The Library Management System is a simple yet effective console-based applicatio
 
 🔄 Transactions
 
-1)Issue Books:
-
-Check if a book is available for borrowing.Ensure users do not exceed the borrowing limit (one book at a time).
+1)Issue Books:Check if a book is available for borrowing.Ensure users do not exceed the borrowing limit (one book at a time).
 
 2)Return Books:Update the system when users return borrowed books.
 
