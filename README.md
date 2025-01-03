@@ -1,69 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A Library Management System project developed in C to manage books and users efficiently.">
-    <title>Library Management System</title>
-</head>
-<body>
-    <header>
-        <h1>Library Management System</h1>
-        <p>A comprehensive C-based project for managing library operations effectively.</p>
-    </header>
-    
-    <main>
-        <section id="features">
-            <h2>Features</h2>
-            <ul>
-                <li>Add, view, and search for books with unique IDs.</li>
-                <li>Manage user records, including borrowing and returning books.</li>
-                <li>View all books and users in a structured format.</li>
-                <li>Issue books to users and track their borrowed status.</li>
-                <li>Search books by title or author using keyword matching.</li>
-            </ul>
-        </section>
+# Library Management System
+<h2>Overview</h2>
 
-        <section id="requirements">
-            <h2>Requirements</h2>
-            <ul>
-                <li>Programming Language: C</li>
-                <li>Development Environment: GCC or any standard C compiler</li>
-            </ul>
-        </section>
+The Library Management System is a simple yet effective console-based application developed in the C programming language. It provides essential functionalities to manage books, users, and transactions like issuing and returning books. Designed for small to medium-sized libraries, the system focuses on ease of use and efficient data handling.
 
-        <section id="setup">
-            <h2>Setup and Usage</h2>
-            <ol>
-                <li>Clone this repository to your local machine using <code>git clone</code>.</li>
-                <li>Compile the program using a C compiler (e.g., <code>gcc library.c -o library</code>).</li>
-                <li>Run the program using <code>./library</code>.</li>
-                <li>Follow the on-screen menu to interact with the system.</li>
-            </ol>
-        </section>
+<h3>Features</h3>
 
-        <section id="project-structure">
-            <h2>Project Structure</h2>
-            <ul>
-                <li><strong>library.c</strong>: Main source code for the system.</li>
-                <li><strong>README.md</strong>: Detailed project description and usage guide.</li>
-            </ul>
-        </section>
+📚 Book Management
 
-        <section id="contribution">
-            <h2>Contribution</h2>
-            <p>Contributions are welcome! Feel free to open issues or submit pull requests for enhancements.</p>
-        </section>
+1)Add New Books: Register books with unique IDs, titles, and authors.
 
-        <section id="license">
-            <h2>License</h2>
-            <p>This project is licensed under the <strong>MIT License</strong>. You are free to use, modify, and distribute it under the terms of the license.</p>
-        </section>
-    </main>
-    
-    <footer>
-        <p>Developed by [Your Name].</p>
-        <p>For more details, visit <a href="https://github.com/your-repo" target="_blank">GitHub Repository</a>.</p>
-    </footer>
-</body>
-</html>
+2)View All Books: Display a detailed, formatted list of all available and issued books.
+
+3)Search Books: Quickly find books by keywords in titles or authors.
+
+👤 User Management
+
+1)Add New Users: Register library users with unique IDs and names.
+
+2)View All Users: Display all registered users with details of borrowed books.
+
+🔄 Transactions
+
+1)Issue Books:
+
+Check if a book is available for borrowing.Ensure users do not exceed the borrowing limit (one book at a time).
+
+2)Return Books:Update the system when users return borrowed books.
